@@ -1,8 +1,10 @@
 package test_runner;
 
-public class test_runner {
+import org.junit.Test;
 
-	public static void main(String[] args) {
+public class test_runner {
+@Test
+	public void ttt() {
 		System.out.println("is it working");
 
 	}
